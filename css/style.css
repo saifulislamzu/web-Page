@@ -1,64 +1,65 @@
-*{
-    
+* {
+
     margin: 0px;
     padding: 0px;
 }
 
-body{
-    
+body {
+
     font-family: 'Poppins', sans-serif;
 }
 
-.container{
-    
+.container {
+
     width: 1140px;
     margin: 0 auto;
-    
+
 }
 
 
-header{
-    
+header {
+
     width: 100%;
     float: left;
     position: fixed;
     top: 0px;
+    left: 0;
     display: block;
     background-color: #ffffff;
     box-shadow: 2px 2px #666666;
-    
+
 }
 
 
 
-.logo{
-    
+.logo {
+
     width: 25%;
     float: left;
     margin-top: 10px;
-    
+
 }
 
-.nav-bar{
+.nav-bar {
     width: 75%;
     float: left;
     margin-top: 10px;
 }
 
-nav ul{
-    
+nav ul {
+
     list-style-type: none;
     padding-left: 20px;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     margin: 8px 5px;
-    
+
 }
 
-nav ul li a{
-    
+nav ul li a {
+
     text-decoration: none;
     padding: 5px 13px;
     border-radius: 20px;
@@ -68,27 +69,28 @@ nav ul li a{
     text-transform: uppercase;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #e89d1a;
-    transition: 0.6s ease-in-out;
+    transition: 0.4s ease-in-out;
     font-weight: bold;
     box-shadow: 2px 2px #e89d1a;
     border-bottom: 1px solid #e89d1a;
-    
+
 }
 
-.bg-full-image{
+.bg-full-image {
+    margin-top: 75px;
     display: block;
     width: 100%;
     float: left;
     height: 600px;
-    background:url(../img/web-bg.jpg);
+    background: url(../img/web-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
-.bg-full-image h1{
+.bg-full-image h1 {
     margin: 0 auto;
     width: 50%;
     font-size: 30px;
@@ -101,17 +103,17 @@ nav ul li a:hover{
     background-color: #353a353d;
     border-radius: 30px;
     padding: 20px;
-    
+
 }
 
-.we-offer .offer-sec{
-    
+.we-offer .offer-sec {
+
     width: 100%;
     float: left;
 }
 
-.we-offer-title{
-    
+.we-offer-title {
+
     text-align: center;
     display: block;
     padding-top: 20px;
@@ -119,76 +121,76 @@ nav ul li a:hover{
     font-size: 30px;
     font-weight: bold;
     line-height: 40px;
-    
+
 }
 
-.demand-skill{
-    
+.demand-skill {
+
     width: 25%;
     float: left;
 }
 
 
-.expert-mentors{
-    
+.expert-mentors {
+
     width: 25%;
     float: left;
 }
 
-.carrer-support{
-    
+.carrer-support {
+
     width: 25%;
     float: left;
 }
 
-.work-globally{
-    
+.work-globally {
+
     width: 25%;
     float: left;
 }
 
-.offer-sec img{
-    
+.offer-sec img {
+
     padding: 20px 70px;
     height: 150px;
     border-radius: 50px;
-    
+
 
 }
 
 
-.we-offer h4{
-    
+.we-offer h4 {
+
     text-align: center;
     font-size: 20px;
     line-height: 60px;
 }
 
-.demand-skill .slogan-one{
-    
+.demand-skill .slogan-one {
+
     color: #02b3e4;
-    
+
 }
 
-.expert-mentors .slogan-two{
-    
+.expert-mentors .slogan-two {
+
     color: #02ccba;
-    
+
 }
 
 
-.carrer-support .slogan-three{
-    
+.carrer-support .slogan-three {
+
     color: #a951ed;
-    
+
 }
 
-.work-globally .slogan-four{
-    
+.work-globally .slogan-four {
+
     color: #02ccba;
 }
 
-.offer-sec p{
+.offer-sec p {
     text-align: center;
     line-height: 25px;
     padding: 10px;
@@ -198,20 +200,20 @@ nav ul li a:hover{
     color: #767676;
 }
 
-.our-course{
+.our-course {
+
     display: block;
 }
 
-.course-sec{
-    
+.course-sec {
+
     width: 100%;
     float: left;
-    
-    
+
 }
 
-.course-sec h4{
-    
+.course-sec h4 {
+
     text-align: center;
     line-height: 45px;
     font-size: 18px;
@@ -219,18 +221,18 @@ nav ul li a:hover{
     letter-spacing: 2px;
     border-bottom: 0.3px solid #b5b0b05e;
     color: #FFB606;
-    
+
 }
 
 
 
-.amsc-sec{
-    
+.amsc-sec {
+
     width: 33.33%;
     float: left;
 }
 
-.amsc-sec img{
+.amsc-sec img {
     margin: 0 auto;
     height: 400px;
     width: 350px;
@@ -238,13 +240,13 @@ nav ul li a:hover{
     border: 1px solid #b5b0b05e;
 }
 
-.seo-m-sec{
-    
+.seo-m-sec {
+
     width: 33.33%;
     float: left;
 }
 
-.seo-m-sec img{
+.seo-m-sec img {
     margin: 0 auto;
     height: 400px;
     width: 350px;
@@ -252,55 +254,55 @@ nav ul li a:hover{
     border: 1px solid #b5b0b05e;
 }
 
-.diploma-sec{
-    
+.diploma-sec {
+
     width: 33.33%;
-    float: left; 
+    float: left;
 }
 
-.diploma-sec img{
+.diploma-sec img {
     margin: 0 auto;
     height: 400px;
     width: 350px;
     padding: 15px;
-    
+
 }
 
-.course-sec h5{
+.course-sec h5 {
     text-align: center;
     font-size: 14px;
     line-height: 15px;
     padding: 15px;
     font-weight: 400;
-    
-    
-    
+
+
+
 }
 
-.course-sec h5:hover{
-    
+.course-sec h5:hover {
+
     color: #e89d1a;
-    transition: 0.6s ease-in-out;
+    transition: 0.4s ease-in-out;
     font-weight: bold;
     text-shadow: 2px 2px #545453;
     cursor: pointer;
-    
+
 }
 
 
-.about-section{
+.about-section {
     margin-top: 20px;
     display: block;
     float: left;
     background-color: #08162d;
     height: 680px;
     width: 100%;
-    
+
 }
 
 
 
-.about-content h2{
+.about-content h2 {
     font-weight: 500;
     padding-top: 50px;
     padding-left: 20px;
@@ -309,8 +311,8 @@ nav ul li a:hover{
     letter-spacing: 1px;
 }
 
-.about-content p{
-    
+.about-content p {
+
     color: #ffffff;
     padding-top: 50px;
     padding-left: 20px;
@@ -319,7 +321,7 @@ nav ul li a:hover{
     letter-spacing: 1px;
 }
 
-.student-work{
+.student-work {
     border-top: 1px solid #ffffff;
     display: block;
     float: left;
@@ -329,27 +331,27 @@ nav ul li a:hover{
     border-bottom: 1px solid #ffffff;
 }
 
-.student-work h3{
+.student-work h3 {
     letter-spacing: 2px;
     color: #ffffff;
     padding-top: 30px;
 }
 
-.work-one{
-    
+.work-one {
+
     width: 50%;
     float: left;
-    
+
 }
 
-.work-two{
-    
+.work-two {
+
     width: 50%;
     float: left;
-   
+
 }
 
-.work-one img{
+.work-one img {
     height: 300px;
     width: 90%;
     margin-top: 50px;
@@ -357,7 +359,7 @@ nav ul li a:hover{
     padding-top: 50px;
 }
 
-.work-two img{
+.work-two img {
     height: 300px;
     width: 90%;
     margin-top: 50px;
@@ -367,89 +369,89 @@ nav ul li a:hover{
 
 
 
-.partner-sec-png{
-    
+.partner-sec-png {
+
     width: 100%;
     float: left;
 }
 
 
-.partner-sec-png h3{
+.partner-sec-png h3 {
     text-align: center;
     line-height: 80px;
     letter-spacing: 2px;
 }
 
-.png-image-one{
-    
+.png-image-one {
+
     width: 20%;
     float: left;
 }
 
 
-.png-image-one img{
+.png-image-one img {
     margin: 0 auto;
     width: 90%;
     height: 90px;
     padding-bottom: 30px;
-    
+
 }
 
 
-.png-image-two{
-    
+.png-image-two {
+
     width: 20%;
     float: left;
 }
 
-.png-image-two img{
+.png-image-two img {
     margin: 0 auto;
     width: 90%;
     height: 90px;
     padding-bottom: 30px;
-    
+
 }
 
 
-.png-image-three{
-    
+.png-image-three {
+
     width: 20%;
     float: left;
 }
 
-.png-image-three img{
+.png-image-three img {
     margin: 0 auto;
     width: 90%;
     height: 90px;
     padding-bottom: 30px;
-    
+
 }
 
 
-.png-image-four{
-    
+.png-image-four {
+
     width: 20%;
     float: left;
 }
 
 
-.png-image-four img{
+.png-image-four img {
     margin: 0 auto;
     width: 90%;
     height: 90px;
     padding-bottom: 30px;
-    
+
 }
 
 
 
-.png-image-five{
-    
+.png-image-five {
+
     width: 20%;
     float: left;
 }
 
-.png-image-five img{
+.png-image-five img {
     padding-bottom: 30px;
     margin: 0 auto;
     width: 90%;
@@ -457,27 +459,27 @@ nav ul li a:hover{
 }
 
 
-.featured-png-img{
-    
+.featured-png-img {
+
     width: 100%;
     float: left;
 }
 
 
-.featured-png-img h3{
+.featured-png-img h3 {
     text-align: center;
     line-height: 80px;
     letter-spacing: 2px;
 }
 
-.featured-png-one{
-    
+.featured-png-one {
+
     width: 20%;
     float: left;
 }
 
 
-.featured-png-one img{
+.featured-png-one img {
     padding-bottom: 30px;
     margin: 0 auto;
     width: 90%;
@@ -487,14 +489,14 @@ nav ul li a:hover{
 
 
 
-.featured-png-two{
-    
+.featured-png-two {
+
     width: 20%;
     float: left;
 }
 
 
-.featured-png-two img{
+.featured-png-two img {
     padding-bottom: 30px;
     margin: 0 auto;
     width: 90%;
@@ -502,14 +504,14 @@ nav ul li a:hover{
 }
 
 
-.featured-png-three{
-    
+.featured-png-three {
+
     width: 20%;
     float: left;
 }
 
 
-.featured-png-three img{
+.featured-png-three img {
     padding-bottom: 30px;
     margin: 0 auto;
     width: 90%;
@@ -517,14 +519,14 @@ nav ul li a:hover{
 }
 
 
-.featured-png-four{
-    
+.featured-png-four {
+
     width: 20%;
     float: left;
 }
 
 
-.featured-png-four img{
+.featured-png-four img {
     padding-bottom: 30px;
     margin: 0 auto;
     width: 90%;
@@ -532,22 +534,22 @@ nav ul li a:hover{
 }
 
 
-.featured-png-five{
-    
+.featured-png-five {
+
     width: 20%;
     float: left;
 }
 
 
-.featured-png-five img{
+.featured-png-five img {
     padding-bottom: 30px;
     margin: 0 auto;
     width: 90%;
     height: 90px;
 }
 
-footer{
-    
+footer {
+
     display: block;
     float: left;
     background-color: #333333;
@@ -555,22 +557,22 @@ footer{
     border-bottom: 1px solid #ffffff;
 }
 
-.footer-sec{
-    
+.footer-sec {
+
     width: 100%;
     float: left;
 }
 
 
-.call-details{
-    
+.call-details {
+
     width: 30%;
     float: left;
 }
 
 
-.call-details img{
-    
+.call-details img {
+
     width: 90%;
     display: block;
     height: 70px;
@@ -578,22 +580,22 @@ footer{
 }
 
 
-.links{
-    
+.links {
+
     width: 30%;
     float: left;
     display: block;
-    
+
 }
 
-.consultent{
-    
+.consultent {
+
     width: 40%;
     float: left;
 }
 
-.call-details ul{
-    
+.call-details ul {
+
     list-style-type: none;
     padding-top: 20px;
 }
@@ -601,7 +603,7 @@ footer{
 
 
 
-.call-details ul li a{
+.call-details ul li a {
     text-decoration: none;
     color: #ffffff;
     font-size: 15px;
@@ -610,26 +612,26 @@ footer{
     letter-spacing: 1px;
 }
 
-.call-details ul li a i{
-    
+.call-details ul li a i {
+
     padding-right: 20px;
     color: #ffffff;
     font-size: 18px;
     font-weight: 600;
 }
 
-.call-details ul li a:hover{
-    
+.call-details ul li a:hover {
+
     color: #1e73be;
     transition: 0.4s ease-in-out;
     font-weight: bold;
     text-shadow: 2px 2px #545453;
-    
+
 }
 
 
-.links h4{
-    
+.links h4 {
+
     text-align: center;
     padding-top: 20px;
     color: #ffffff;
@@ -642,32 +644,32 @@ footer{
 }
 
 
-.links ul{
-    
+.links ul {
+
     text-align: center;
     list-style-type: none;
     padding: 10px;
     padding-top: 20px;
 }
 
-.links ul li{
-    
+.links ul li {
+
     line-height: 15px;
     padding-top: 20px;
     cursor: pointer;
 }
 
 
-.links ul li a{
+.links ul li a {
     font-size: 15px;
     font-weight: 400;
     color: #ffffff;
     letter-spacing: 1px;
-    
+
 }
 
-.links ul li a:hover{
-    
+.links ul li a:hover {
+
     color: #1e73be;
     transition: 0.4s ease-in-out;
     font-weight: bold;
@@ -675,8 +677,8 @@ footer{
 }
 
 
-.consultent h4{
-    
+.consultent h4 {
+
     text-align: center;
     padding-top: 20px;
     color: #ffffff;
@@ -689,19 +691,20 @@ footer{
 }
 
 
-.consultent a{
+.consultent a {
     display: inline-block;
     margin-left: 160px;
     margin-top: 20px;
-    border-radius: 25px;;
+    border-radius: 25px;
+    ;
     padding: 15px;
     color: #ffffff;
     text-decoration: none;
     text-align: center;
-    
+
 }
 
-.consultent a:hover{
+.consultent a:hover {
     color: greenyellow;
     transition: 0.4s ease-in-out;
     font-weight: bold;
@@ -710,7 +713,7 @@ footer{
 }
 
 
-.social-icon{
+.social-icon {
     display: block;
     text-align: center;
     padding: 20px;
@@ -718,13 +721,13 @@ footer{
     float: left;
 }
 
-.social-icon a{
+.social-icon a {
     display: block;
-    
-    
+
+
 }
 
-.social-icon a i{
+.social-icon a i {
     margin: 5px;
     padding: 15px;
     color: #333333;
@@ -734,13 +737,13 @@ footer{
     cursor: pointer;
 }
 
-.fa.fa-facebook{
-    
+.fa.fa-facebook {
+
     padding: 15px 20px;
 }
 
-.fa.fa-facebook:hover{
-    
+.fa.fa-facebook:hover {
+
     background-color: dodgerblue;
     color: #ffffff;
     transition: 0.4s ease-in-out;
@@ -749,8 +752,8 @@ footer{
 }
 
 
-.fa.fa-twitter:hover{
-    
+.fa.fa-twitter:hover {
+
     background-color: royalblue;
     color: #ffffff;
     transition: 0.4s ease-in-out;
@@ -758,8 +761,8 @@ footer{
     box-shadow: 2px 2px #ffffff85;
 }
 
-.fa.fa-linkedin:hover{
-    
+.fa.fa-linkedin:hover {
+
     background-color: steelblue;
     color: #ffffff;
     transition: 0.4s ease-in-out;
@@ -767,8 +770,8 @@ footer{
     box-shadow: 2px 2px #ffffff85;
 }
 
-.fa.fa-youtube:hover{
-    
+.fa.fa-youtube:hover {
+
     background-color: red;
     color: #ffffff;
     transition: 0.4s ease-in-out;
@@ -777,8 +780,8 @@ footer{
 }
 
 
-.copyright-cmnt{
-    
+.copyright-cmnt {
+
     width: 100%;
     float: left;
     display: block;
@@ -788,42 +791,3 @@ footer{
     font-size: 16px;
     font-weight: 400;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
